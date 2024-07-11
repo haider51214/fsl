@@ -1,0 +1,90 @@
+.row {
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+  line-height: 1.4;
+  margin: 3rem 0;
+}
+
+.col {
+  width: 50%;
+}
+
+.col:first-child p:first-child {
+  color: var(--textClrPrimary);
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 0.6rem 0;
+  letter-spacing: 0.6px;
+}
+
+.col:first-child P:nth-child(2) span {
+  color: var(--textClrPrimary);
+  font-weight: 700;
+  font-size: 1.2rem;
+  letter-spacing: 0.6px;
+  font-style: italic;
+}
+
+.col:first-child P:nth-child(2) {
+  color: var(--textClrDark);
+  font-weight: 500;
+  font-style: oblique;
+  margin: 0.6rem 0;
+}
+
+.col:nth-child(2) p:first-child {
+  color: var(--textClrPrimary);
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.col:nth-child(2) p:first-child span {
+  font-weight: 800;
+}
+
+.col:nth-child(2) p:nth-child(2) {
+  font-weight: 700;
+  margin: 1rem 0;
+  color: var(--textClrPrimary);
+  font-size: 1.8rem;
+}
+
+.col:first-child p:nth-child(3) {
+  margin: 1rem 0;
+  color: var(--textClrDark);
+  font-weight: 500;
+  font-size: 1.1rem;
+  font-style: oblique;
+}
+
+.col:nth-child(2) p:nth-child(3) {
+  font-weight: 500;
+  color: var(--textClrDark);
+  font-style: oblique;
+  font-size: 1.1rem;
+}
+
+.arrow {
+  text-align: center;
+  margin: 1rem 0;
+
+}
+
+.icon {
+  transform: rotate(-90deg);
+  color: var(--textClrSecondary);
+  font-size: 2rem;
+}
+
+@media (max-width: 756px) {
+  .row {
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .col {
+    width: 100%;
+  }
+}
