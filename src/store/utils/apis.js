@@ -1,8 +1,8 @@
 const apis = ()=>{
-const baseUrl = 'https://fullspectrumleadership-7df59d68801a.herokuapp.com/'
-// const baseUrl = 'http://localhost:5555/'
+// const baseUrl = 'https://fullspectrumleadership-7df59d68801a.herokuapp.com/'
+const baseUrl = 'http://localhost:5555/'
 const list = {
-userId:'669144c6e035c90e915ab2f5',
+userId:'66915bafa5e0e54bb3e73265',
 getPersonalities:`${baseUrl}personalities/list`,
 getTenetsList:`${baseUrl}tenet/list`,
 addUserPersonality:`${baseUrl}user/personality/add`,
