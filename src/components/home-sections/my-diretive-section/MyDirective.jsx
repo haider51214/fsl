@@ -269,7 +269,7 @@ const MyDirective = () => {
                           );
                         })}
                       {dummyPer
-                        .slice(parseFloat(selectedPer.length), 4)
+                        .slice(parseFloat(selectedPer?.length), 4)
                         .map((item, index) => {
                           return (
                             <div key={index} className={style.item}>
