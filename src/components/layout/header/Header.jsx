@@ -33,12 +33,12 @@ const Header = () => {
           </div>
 
           <div className={style.navigationsMobile}>
-            <Link className={style.navItem}>Home</Link>
-            <Link className={style.navItem}>My Directive</Link>
-            <Link className={style.navItem}>Tools & Resources</Link>
+            {/* <Link className={style.navItem}>Home</Link> */}
+            {/* <Link className={style.navItem}>My Directive</Link>
+            <Link className={style.navItem}>Tools & Resources</Link> */}
           </div>
 
-          <div className={style.searchParent}>
+          {/* <div className={style.searchParent}>
             <div className={style.searchMobile}>
               <CiSearch className={style.sIcon} />
               <input
@@ -47,24 +47,24 @@ const Header = () => {
                 className={style.searchBarMobile}
               />
             </div>
-          </div>
+          </div> */}
         </div>
 
         <img src={logo} className={style.logo} alt="logo" />
         <div className={style.navMain}>
           <div className={style.navigations}>
-            <Link className={style.navItem}>Home</Link>
+            {/* <Link className={style.navItem}>Home</Link>
             <Link className={style.navItem}>My Directive</Link>
-            <Link className={style.navItem}>Tools & Resources</Link>
+            <Link className={style.navItem}>Tools & Resources</Link> */}
           </div>
-          <div className={style.search}>
+          {/* <div className={style.search}>
             <CiSearch className={style.sIcon} />
             <input
               type="text"
               placeholder="Search..."
               className={style.searchBar}
             />
-          </div>
+          </div> */}
           <div className={style.menu}>
             <IoMenu onClick={menuOpenHandler} className={style.menuIcon} />
           </div>
